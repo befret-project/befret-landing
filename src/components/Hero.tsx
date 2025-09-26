@@ -7,7 +7,7 @@ export default function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative w-full min-h-[600px] lg:min-h-screen overflow-hidden bg-white">
+    <section className="relative w-full min-h-[600px] md:min-h-[700px] lg:min-h-[800px] xl:min-h-screen overflow-hidden bg-white">
       {/* Green background with decorative dots effect */}
       <div className="absolute inset-0 lg:w-1/2 w-full h-full bg-befret-green">
         {/* World map with dots */}
@@ -27,7 +27,7 @@ export default function Hero() {
       </div>
 
       {/* Main content container */}
-      <div className="relative z-10 flex items-center min-h-[600px] lg:min-h-screen px-6 sm:px-8 lg:px-16">
+      <div className="relative z-10 flex items-center min-h-[600px] md:min-h-[700px] lg:min-h-[800px] xl:min-h-screen px-6 sm:px-8 lg:px-16">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12 items-center">
 
           {/* World Map Outline and Woman Image */}
@@ -45,10 +45,11 @@ export default function Hero() {
                 }}
               />
 
-              {/* Woman image - responsive positioning */}
-              {/* Desktop woman image */}
+              {/* Woman image - responsive positioning with multiple breakpoints */}
+
+              {/* Large desktop (1280px+) - Original complex positioning */}
               <div
-                className="absolute rounded-3xl hidden lg:block"
+                className="absolute rounded-3xl hidden xl:block"
                 style={{
                   top: '-510px',
                   left: '45%',
@@ -66,8 +67,48 @@ export default function Hero() {
                 />
               </div>
 
-              {/* Mobile woman image - simpler positioning */}
-              <div className="lg:hidden relative w-full max-w-sm mx-auto mt-2">
+              {/* Medium screens (1024-1279px) - Reduced positioning */}
+              <div
+                className="absolute rounded-3xl hidden lg:block xl:hidden"
+                style={{
+                  top: '-300px',
+                  left: '35%',
+                  width: '130%',
+                  height: '700px'
+                }}
+              >
+                <Image
+                  src="/assets/KOOBALT-09 1.png"
+                  alt="BeFret Service"
+                  width={788}
+                  height={876}
+                  className="w-full h-full object-contain"
+                  priority
+                />
+              </div>
+
+              {/* Small/Medium screens (768-1023px) - Further reduced */}
+              <div
+                className="absolute rounded-3xl hidden md:block lg:hidden"
+                style={{
+                  top: '-200px',
+                  left: '25%',
+                  width: '110%',
+                  height: '500px'
+                }}
+              >
+                <Image
+                  src="/assets/KOOBALT-09 1.png"
+                  alt="BeFret Service"
+                  width={788}
+                  height={876}
+                  className="w-full h-full object-contain"
+                  priority
+                />
+              </div>
+
+              {/* Mobile (below 768px) - Simple positioning */}
+              <div className="md:hidden relative w-full max-w-sm mx-auto mt-2">
                 <Image
                   src="/assets/KOOBALT-09 1.png"
                   alt="BeFret Service"
@@ -85,7 +126,7 @@ export default function Hero() {
             {/* Main title */}
             <h1 className="text-white lg:text-black font-sans font-medium leading-tight text-center lg:text-right max-w-2xl lg:max-w-xl xl:max-w-2xl lg:ml-auto"
                 style={{
-                  fontSize: 'clamp(2rem, 5vw, 5rem)',
+                  fontSize: 'clamp(1.8rem, 4vw, 5rem)',
                   lineHeight: '0.99'
                 }}
                 dangerouslySetInnerHTML={{ __html: t('title') }}>
