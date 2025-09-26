@@ -5,7 +5,7 @@ import InfoSection from '@/components/InfoSection';
 import Footer from '@/components/Footer';
 import { routing } from '../../i18n/routing';
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
