@@ -1,0 +1,57 @@
+{
+  "header": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Verstuur pakketten<br />van Europa naar<br />DR Congo",
+    "subtitle": "Vereenvoudig uw verzendingen naar DR Congo met BeFret, dankzij onze 80.000 afhaalpunten beschikbaar in heel Europa.",
+    "comingSoon": "BINNENKORT BESCHIKBAAR"
+  },
+  "countdown": {
+    "description": "Nieuwe website beschikbaar vanaf 10 oktober 2025. <br />Blijf op de hoogte voor onze internationale logistieke diensten.",
+    "days": "Dagen",
+    "hours": "Uren",
+    "minutes": "Minuten",
+    "seconds": "Seconden"
+  },
+  "infoSection": {
+    "line1": "Verstuur eenvoudig:",
+    "line2": "80.000 DPD afhaalpunten",
+    "line3": "door heel",
+    "line4": "Europa"
+  },
+  "footer": {
+    "copyright": "© 2025 BeFret. Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "cookies": "Cookie-instellingen"
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "subtitle": "We zijn er om u te helpen met uw logistieke behoeften",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "company": "Bedrijf",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "firstNamePlaceholder": "Uw voornaam",
+    "lastNamePlaceholder": "Uw achternaam",
+    "emailPlaceholder": "uw.email@voorbeeld.nl",
+    "phonePlaceholder": "+31 6 12 34 56 78",
+    "companyPlaceholder": "Uw bedrijfsnaam",
+    "messagePlaceholder": "Beschrijf uw verzoek in detail...",
+    "selectSubject": "Selecteer een onderwerp",
+    "subjectShipping": "Verzending naar DR Congo",
+    "subjectPricing": "Prijzen en offertes",
+    "subjectPartnership": "Partnerschap",
+    "subjectSupport": "Technische ondersteuning",
+    "subjectOther": "Andere vraag",
+    "cancel": "Annuleren",
+    "send": "Bericht versturen",
+    "sending": "Versturen...",
+    "successMessage": "Uw bericht is succesvol verzonden! We reageren snel.",
+    "errorSending": "Fout bij het verzenden van bericht. Probeer het opnieuw."
+  }
+}

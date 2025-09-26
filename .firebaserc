@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "befret": "befret-development",
+    "default": "befret-production",
+    "prod": "befret-production",
+    "dev": "befret-development"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

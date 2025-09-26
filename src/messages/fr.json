@@ -1,0 +1,57 @@
+{
+  "header": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Tinda colis na<br />Europe vers<br />RD Congo",
+    "subtitle": "Simplifiez vos envois vers la RD Congo avec BeFret, grâce à nos 80 000 points relais disponibles partout en Europe.",
+    "comingSoon": "COMING SOON"
+  },
+  "countdown": {
+    "description": "Nouveau site disponible dès le 10 octobre 2025. <br />Restez à l'écoute pour nos services de logistique internationale.",
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes"
+  },
+  "infoSection": {
+    "line1": "Envoyez",
+    "line2": "facilement : 80 000",
+    "line3": "points relais DPD",
+    "line4": "en Europe"
+  },
+  "footer": {
+    "copyright": "© 2025 BeFret. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Paramètres des cookies"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider avec vos besoins logistiques",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "company": "Entreprise",
+    "subject": "Sujet",
+    "message": "Message",
+    "firstNamePlaceholder": "Votre prénom",
+    "lastNamePlaceholder": "Votre nom",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "phonePlaceholder": "+33 1 23 45 67 89",
+    "companyPlaceholder": "Nom de votre entreprise",
+    "messagePlaceholder": "Décrivez votre demande en détail...",
+    "selectSubject": "Sélectionnez un sujet",
+    "subjectShipping": "Expédition vers RD Congo",
+    "subjectPricing": "Tarifs et devis",
+    "subjectPartnership": "Partenariat",
+    "subjectSupport": "Support technique",
+    "subjectOther": "Autre demande",
+    "cancel": "Annuler",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "successMessage": "Votre message a été envoyé avec succès ! Nous vous répondrons rapidement.",
+    "errorSending": "Erreur lors de l'envoi du message. Veuillez réessayer."
+  }
+}

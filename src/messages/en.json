@@ -1,0 +1,57 @@
+{
+  "header": {
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Send packages<br />from Europe to<br />DR Congo",
+    "subtitle": "Simplify your shipments to DR Congo with BeFret, thanks to our 80,000 relay points available throughout Europe.",
+    "comingSoon": "COMING SOON"
+  },
+  "countdown": {
+    "description": "New website available from October 10, 2025. <br />Stay tuned for our international logistics services.",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "infoSection": {
+    "line1": "Send easily:",
+    "line2": "80,000 DPD relay",
+    "line3": "points throughout",
+    "line4": "Europe"
+  },
+  "footer": {
+    "copyright": "© 2025 BeFret. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Settings"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with your logistics needs",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "subject": "Subject",
+    "message": "Message",
+    "firstNamePlaceholder": "Your first name",
+    "lastNamePlaceholder": "Your last name",
+    "emailPlaceholder": "your.email@example.com",
+    "phonePlaceholder": "+1 234 567 8900",
+    "companyPlaceholder": "Your company name",
+    "messagePlaceholder": "Describe your request in detail...",
+    "selectSubject": "Select a subject",
+    "subjectShipping": "Shipping to DR Congo",
+    "subjectPricing": "Pricing and quotes",
+    "subjectPartnership": "Partnership",
+    "subjectSupport": "Technical support",
+    "subjectOther": "Other inquiry",
+    "cancel": "Cancel",
+    "send": "Send message",
+    "sending": "Sending...",
+    "successMessage": "Your message has been sent successfully! We'll respond quickly.",
+    "errorSending": "Error sending message. Please try again."
+  }
+}
